@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* height: 100%; */
+}
+html,
+body {
+  /* height: 100%; */
+  color: #fff;
+  background: rgba(158, 43, 252, 0.1);
+  position: relative;
+}
+
+main {
+  height: 100vh;
+  height: 100dvh;
+}
+
+.navbar span {
+  display: none;
+}
+
+.navbar:hover span {
+  display: initial;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #731bbb;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
